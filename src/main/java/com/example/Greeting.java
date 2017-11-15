@@ -22,6 +22,6 @@ public class Greeting {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public String getGreeting(@HeaderParam("Accept-Language") String acceptLanguage) {
-        return "{\"greeting\":\"Hallo!\"}";
+        return "{\"greeting\":\"Hallo Guru!\"}";
     }
 }
